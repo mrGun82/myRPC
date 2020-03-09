@@ -7,7 +7,9 @@ import java.net.Socket;
 
 import g.rpc.service.RPCRequest;
 import g.rpc.service.RPCResponse;
-
+/*
+* RPC 客户端
+* */
 public class RPCClient {
 
 	public Object start(RPCRequest request, String host, int port) throws Throwable {
